@@ -12,6 +12,7 @@ base = 4
 
 while exp > 0: 
   total = total * base
+  exp--
 
 print("total is:", total)
   
