@@ -56,7 +56,22 @@ This can be a helpful tool when debugging since the data types are explicitly de
 Python is dynamically typed (Java is statically typed) meaning that we don't have to declare what data types we will be using.  Howerver, to make conversions between data types, Python has some helpful functions.  
 
 - String to an int
+```
+>>> age = "31"  
+>>> birth_year = 2020 - int(age)
+>>> print(birth_year)
+1989 
+```
 - Int to a string
+```
+>>> height = 77
+>>> print("You are " + str(height) + " inches tall")
+```
+
+`float(x)` converts an int or a string that is a number to a floating point value.  
+
+Conversions can also be used to convert float values to integers. In this case, the decimal is dropped, not rounded.  
+Python will return a `ValueError` when try to convert data that can't be converted to another specified data type.  
 
 ### Operators 
 Arithemtic Operators in Python: 
@@ -85,8 +100,9 @@ import random
 ```
 You can take a look at the python docs here: [Random](https://docs.python.org/3/library/random.html)
 
+---
 
-# Dice Rolling
+# :floppy_disk: Dice Rolling
 
 ## Create a program that rolls a normal dice (6 sides)
 The program then should be extended to roll any number of times, with the input being provided by the user.  
@@ -105,3 +121,16 @@ The output of each dice roll should be displayed.
 
 ## Create a new dice that prompts the user for how many sides on their dice.  
 The program should then roll 
+
+# :floppy_disk: Binary Conversion
+The program should accept a positive whole number and output the corresponding value in binary.  
+
+![Converting to Binary](https://media.geeksforgeeks.org/wp-content/uploads/decimal2binary.png)
+
+*Note that converting to binary is essentially repeated division by 2 and using the quotient's remainder.  
+
+```
+>>> Please enter a postive whole number: 9  
+>>> 9 in binary is: 10001
+>>> 
+```
