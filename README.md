@@ -99,6 +99,12 @@ import random
 
 ```
 You can take a look at the python docs here: [Random](https://docs.python.org/3/library/random.html)
+Some functions available include:
+- `randon.random()` Returns a floating point number between 0 and 1. 
+- `random.randrange(stop)`  Returns an integer between 0 up until the value provided.  
+- `random.randrange(start, stop, step)` Returns an integer from the range and step given.  
+- `random.randint(a, b)`  Returns an integer between AND including a and b.  
+
 
 ---
 
