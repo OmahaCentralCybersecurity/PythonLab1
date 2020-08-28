@@ -1,7 +1,7 @@
 # PythonLabOne
-Recapping Data Types, Operators, While Loops
+Recapping Data Types, Operators, & While Loops
 
-## The while loop
+## :one: The while loop
 while loops allow programmers to repeat a task as a long as a certain condition stays true.  
 
 ### Repeat 'n' times
@@ -32,7 +32,51 @@ print("the end count is: ", count)
   
 ```
 
-## Random python package
+## :two: Data Types and Operators 
+
+1. Strings `str`
+2. Numeric `int`, `float`, `complex`
+3. Boolean `bool`
+4. Characters
+
+The type can be tested by using `type(variable)`, Python returns the class (or type) that the data is a part of. 
+```
+>>> name = "Omaha Central"
+>>> type(name)
+<class 'str'>
+```
+
+This can be a helpful tool when debugging since the data types are explicitly declared by the user like they are in Java. 
+```
+>>> age = 160
+>>> type(age)
+<class 'int'>
+```
+### Type Conversions
+Python is dynamically typed (Java is statically typed) meaning that we don't have to declare what data types we will be using.  Howerver, to make conversions between data types, Python has some helpful functions.  
+
+- String to an int
+- Int to a string
+
+### Operators 
+Arithemtic Operators in Python: 
+
+| Operator    | Description |
+| --- | --- |
+| + | addition |
+| - | subtraction |
+| * | multiplication|
+| / | division (float) |
+| // | division (floor) | 
+| % | modulus | 
+| ** | exponent |
+
+### :memo: To note: float division vs floor(integer) division
+> 5 / 2 = 2.5  
+> 5 // 2 = 2  
+> 5 % 2 = 1  
+
+## :three: Random python package
 The python standard library has a package random.  To use it in your program you must import it.
 ```
 import random
