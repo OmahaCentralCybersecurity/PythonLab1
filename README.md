@@ -152,7 +152,7 @@ The program should accept a positive whole number and output the corresponding v
 *Note that converting to binary is essentially repeated division by 2 and using the quotient's remainder.  
 
 ```
->>> Please enter a postive whole number: 9  
->>> 9 in binary is: 10001
+>>> Please enter a postive whole number: 11  
+>>> 11 in binary is: 1011
 >>> 
 ```
