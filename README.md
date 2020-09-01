@@ -20,13 +20,13 @@ print("total is:", total)
 
 ### Repeat until something happens
 ```
-keep_counting = "y'
+keep_counting = "y"
 count = 0
 
-while keep_counting = "y":
+while keep_counting == "y":
   count+=1
   print("count is: ", count)
-  keep_counting = input("Do you want count another? (y/n)": )
+  keep_counting = input("Do you want count another? (y/n):" )
   
 print("the end count is: ", count)
   
