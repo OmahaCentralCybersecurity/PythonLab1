@@ -145,7 +145,7 @@ The program should then roll and print the result until it lands on the highest-
 ```
 
 # :floppy_disk: Binary Conversion
-The program should accept a positive whole number and output the corresponding value in binary.  
+The program should accept a positive whole number and output the corresponding value in binary up to 8 bits (8 binary digits).  
 
 ![Converting to Binary](https://media.geeksforgeeks.org/wp-content/uploads/decimal2binary.png)
 
@@ -153,6 +153,6 @@ The program should accept a positive whole number and output the corresponding v
 
 ```
 >>> Please enter a postive whole number: 11  
->>> 11 in binary is: 1011
+>>> 11 in binary is: 00001011
 >>> 
 ```
