@@ -110,23 +110,39 @@ Some functions available include:
 
 # :floppy_disk: Dice Rolling
 
+
 ## Create a program that rolls a normal dice (6 sides)
 The program then should be extended to roll any number of times, with the input being provided by the user.  
 The output of each dice roll should be displayed.  
+
 ```
->>> Please enter the number of times you want to roll: 4
->>> Roll results: 3 3 2 6
+>>> Roll result: 3
 >>> Roll again? (y/n):  y
 >>> 
->>> Please enter the number of times you want to roll: 1
->>> Roll results: 5
+>>> Roll result: 5
 >>> Roll again? (y/n): n
 >>>
+>>> K. Bye
 
 ```
 
 ## Create a new dice that prompts the user for how many sides on their dice.  
-The program should then roll 
+The program should then roll and print the result until it lands on the highest-sided number.  
+```
+>>> Enter the number of sides: 15
+>>>
+>>> 1 3 12 14 7 8 8 3 2 4 15 
+>>>
+>>> It took 11 rolls to get 15.  
+```
+
+```
+>>> Enter the number of sides: 3
+>>>
+>>> 1 3
+>>>
+>>> It took 2 rolls to get 3.  
+```
 
 # :floppy_disk: Binary Conversion
 The program should accept a positive whole number and output the corresponding value in binary.  
