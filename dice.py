@@ -10,7 +10,14 @@ import random
 
 def dice1():
   ## code for part 1 goes here
-  pass ## pass is used a placeholder for empty code. You can delete pass once you've written each function 
+    choice = "y"
+
+    while choice == "y":
+        dice_six = random.randint(1,6)
+        print("Roll result:", dice_six)
+        choice = input("Do you want to roll again? (y/n): ")
+
+    print("K. Bye")
 
 
 def dice2():
